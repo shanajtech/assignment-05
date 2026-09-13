@@ -1,2 +1,36 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+}
+
+.container-main {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    90deg,
+    #ff5722,
+    #d81b7e,
+    #7c3aed
+  );
+}
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #ff5722,
+    #d81b7e,
+    #7c3aed
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
