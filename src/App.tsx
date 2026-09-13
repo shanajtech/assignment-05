@@ -5,6 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
+import Footer from "./components/Footer";
 
 interface Technology {
   id: string;
@@ -90,6 +91,8 @@ function App() {
           />
         )}
       </main>
+
+      <Footer />
 
       <ToastContainer
         position="top-right"
