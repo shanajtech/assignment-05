@@ -1,15 +1,18 @@
+
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="min-h-screen flex flex-col gap-5 items-center justify-center bg-base-200">
-      <h1 className="text-5xl font-bold">
-        Dev Stack Builder
-      </h1>
+    <>
+      <Navbar />
 
-      <button className="btn btn-primary">
-        Test DaisyUI
-      </button>
-    </div>
-  )
+      <div className="min-h-[1200px] bg-white">
+        <h1 className="pt-20 text-center text-4xl font-bold">
+          Dev Stack Builder
+        </h1>
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
